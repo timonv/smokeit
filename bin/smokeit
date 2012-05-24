@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'smokeit'
+
+
+server = ARGV[0]
+res_code = ARGV[1]
+
+Smokeit::Base.smoke!(server, res_code) ? exit(true) : exit(false)
