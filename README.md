@@ -1,24 +1,15 @@
 # Smokeit
 
-TODO: Write a gem description
+A simple tool for smoketesting urls, breaks if response code is not
+expected
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'smokeit'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install smokeit
 
 ## Usage
 
-TODO: Write usage instructions here
+  ```smokeit <url> <expected response_code>```
 
 ## Contributing
 
